@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-# Title Fixer by Michelle Warren from engineerbabe.com | 2021
+# Title Fixer by Michelle Warren from engineerbabe.com | June 2021
 # This script takes user input of a directory and decodes UTF-8 encoded
 # bytes of files with a user-defined extension, so that your file names
 # can be human-readable!
@@ -40,7 +40,7 @@ else:
 		print("Cool beans!\n")
 
 		# Ask the user for the desired extension
-		ext = input("What is the extension of the file(s) you'd like to change? For example, '.doc', '.mp3', etc.: ")
+		ext = input("What is the extension of the file(s) you'd like to change? For example, '.doc', '.mp3', '.txt', etc.: ")
 		files = glob.glob('%s/*%s' % (user_input,ext))
 
 		# Print names of files with that extension
